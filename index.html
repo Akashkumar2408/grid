@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/grid.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <title>Grid</title>
+</head>
+
+<body>
+    <!--tag line sketch pad-->
+    <div align="center ">
+        <h1>SKECTH PAD</h1>
+    </div>
+    <!-- color picker and sketch-->
+    <div style="display: inline-flex;">
+        <div style="outline: 2px solid #000;">
+            <button> <input type="color" id="pick_color">PICK COLOR</button><br>
+            <br> number of grid you want
+            <button onclick="gridwork()" type="submit"><input type="number" id="usergrid" >submit</button>
+        </div>
+        <div>
+            <div id="grid" style=" width: 900px; height: 900px; border: 1px solid black; overflow-x: scroll; overflow-y: scroll;" ></div>
+        </div>
+    </div>
+<script src="./js/grid.js"></script>
+
+</body>
+
+</html>

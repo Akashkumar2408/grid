@@ -1,0 +1,19 @@
+#grid{
+    position: absolute;
+	outline:2px solid #000;
+	font-size: 0;
+	margin:auto;
+	height:960px;
+	width:900px;
+	padding: 0;
+	border: none;
+}
+.box{
+    margin:0;
+	padding:0;
+	border:1px solid;
+    height: 40px;
+    width: 40px;
+	outline:1px solid #000;
+	display:inline-block;
+}
